@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	font-family: "Lucida Grande";
+}
+header{
+	margin-bottom: 10px;
+}
+header .carousel-inner .item{
+	height: 100vh;
+}
+.navbar-inverse{
+	background-color: #808080;
+
+}
+.navbar-inverse .navbar-brand{
+	color: #fff;
+	font-size: 40px;
+	padding: 40px 15px;
+	font-weight: 900;
+}
+.navbar-inverse .navbar-brand span{
+  color: #edbb00;
+  font-size: 40px;
+  padding: 40px 15px;
+  font-weight: 900;
+}
+.nav.navbar-nav.navbar-right{
+	margin: 25px 0;
+}
+.navbar-inverse .navbar-nav > li > a{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 18px;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.banner{
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.carousel-caption{
+	padding-bottom: 230px;
+	font-family: "Lucida Grande";
+}
+.carousel-caption h2{
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span{
+	color: #edbb00;
+}
+.carousel-caption a{
+	background: #edbb00;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+.carousel-control .right{
+	background-image: none;
+}
+.carousel-indicators .active{
+	background-color: #edbb00;
+	border-color: #edbb00;
+}
+
+/* Extra */
+.clear {
+  clear: left;
+}
+.gallery-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.gallery {
+  float: left;
+  width: 33%;
+}
+
+.gallery-item {
+  position: relative;
+}
+
+.foto-gallery {
+  width: 270px;
+  height: 230px;
+  border-radius: 20px;
+}
+
+.foto-gallery:hover {
+-webkit-transform: scale(1.18);
+  transform: scale(1.18);
+}
+
+.profil {
+  float: left;
+  width: 20%;
+}
+
+.foto-profil {
+ position: relative; 
+}
+
+.foto {
+  width: 150px;
+  height: 120px;
+  border-radius: 70px;
+}
+
+.foto:hover {
+-webkit-transform: scale(1.18);
+  transform: scale(1.18);
+}
+
+.foto-profil p {
+  width: 100%;
+  color: #000;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.gallery-item p {
+  width: 100%;
+  color: #000;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 60px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+
+.message-wrapper .carousel-inner .item{
+  height: 30vh;
+}
+
+.message-wrapper .carousel-caption{
+  padding-bottom: 30px;
+  font-family: "Lucida Grande";
+  text-align: center;
+  color: black;
+}
+.message-wrapper .carousel-caption h2{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.message-wrapper .carousel-control .right{
+  background-image: none;
+}
+.message-wrapper .carousel-indicators .active{
+  background-color: #edbb00;
+  border-color: #edbb00;
+}
